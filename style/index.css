@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFFFFF;
+    overflow: hidden;
+    margin: auto;
+    width: 65%;
+    text-align: center;
+}
