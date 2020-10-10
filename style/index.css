@@ -5,8 +5,24 @@ html {
 body {
     background: #FFFFFF;
     margin: auto;
-    width: 65%;
     text-align: center;
+}
+
+header, footer {
+    background: #707070;
+}
+
+section {
+    width: 65%;
+    margin: auto;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.p-top-69 {
+    padding-top: 69px;
 }
 
 .grid {
