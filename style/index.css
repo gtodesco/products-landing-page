@@ -4,8 +4,13 @@ html {
 
 body {
     background: #FFFFFF;
-    overflow: hidden;
     margin: auto;
     width: 65%;
     text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 39px 41px;
 }
