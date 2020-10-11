@@ -8,8 +8,14 @@ body {
     text-align: center;
 }
 
-header, footer {
+header, footer, nav {
     background: #707070;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 215px));
+    justify-content: center;
 }
 
 section {
@@ -27,8 +33,16 @@ section {
     margin: auto;
 }
 
+.m-20 {
+    margin: 20px;
+}
+
 .mb-auto {
     margin-bottom: auto;
+}
+
+.p-50 {
+    padding: 50px;
 }
 
 .p-top-69 {
@@ -51,6 +65,10 @@ section {
 
 .white {
     color: #FFFFFF;
+}
+
+.grey {
+    color: #888888;
 }
 
 .size-1 {
@@ -91,4 +109,17 @@ section {
 .size-8 {
     font-size: 40px;
     line-height: 49px;
+}
+
+.button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.shadow {
+    box-shadow: 0px 1px 6px #00000029;
 }
