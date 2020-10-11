@@ -17,16 +17,78 @@ section {
     margin: auto;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 39px 41px;
+}
+
 .m-auto {
     margin: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
 }
 
 .p-top-69 {
     padding-top: 69px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 39px 41px;
+.text {
+    font-style: normal;
+    font-variant: normal;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.size-1 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.size-2 {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.size-3 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.size-4 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.size-5 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.size-6 {
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.size-7 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.size-8 {
+    font-size: 40px;
+    line-height: 49px;
 }
