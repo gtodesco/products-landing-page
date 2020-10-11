@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFFFFF;
+    margin: auto;
+    text-align: center;
+}
+
+header, footer, nav {
+    background: #707070;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 215px));
+    justify-content: center;
+}
+
+nav a {
+    box-shadow: 0px 1px 6px #00000029;
+}
+
+section {
+    width: 65%;
+    margin: auto;
+}
+
+#header {
+    padding-top: 69px;
+}
+
+#products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 39px 41px;
+}
+
+.text {
+    font-style: normal;
+    font-variant: normal;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
