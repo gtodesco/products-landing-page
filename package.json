@@ -1,0 +1,23 @@
+{
+  "name": "products-landing-page",
+  "version": "1.0.0",
+  "description": "Custom products landing page for Desktop, Mobile and Email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./view"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtodesco/products-landing-page.git"
+  },
+  "author": "Gabriel Todesco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtodesco/products-landing-page/issues"
+  },
+  "homepage": "https://github.com/gtodesco/products-landing-page#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
