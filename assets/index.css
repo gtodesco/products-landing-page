@@ -27,6 +27,10 @@ section {
     margin: auto;
 }
 
+article {
+    text-align: left;
+}
+
 label {
     display: inherit;
     font: normal normal normal 12px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -38,15 +42,12 @@ label {
     padding-top: 69px;
 }
 
-#algorithm {
-    text-align: left;
-}
-
 #algorithm article {
     width: 60%;
 }
 
 #algorithm form {
+    text-align: left;
     width: 40%;
 }
 
@@ -67,6 +68,13 @@ label {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 39px 41px;
+    margin-top: 50px;
+    margin-bottom: 52px;
+}
+
+#products-list img {
+    width: 100%;
+    border: 1px solid #707070;
 }
 
 .text {
@@ -84,10 +92,39 @@ label {
     padding: 10px 10px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section-title::before, .section-title::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #707070;
+}
+
+.section-title::before {
+    margin-right: 20px;
+}
+
+.section-title::after {
+    margin-left: 20px;
+}
+
 @media only screen and (max-width: 900px) {
 
+    header {
+        text-align: left;
+        padding-left: 20px;
+    }
+
     section {
-        width: 80%;
+        width: 90%;
     }
 
     #algorithm {
@@ -106,4 +143,40 @@ label {
     #chevron-icon {
         visibility: visible;
     }
+}
+
+@media only screen and (max-width: 500px) {
+
+    #prod-description {
+        display: none;
+    }
+
+    #products-list article {
+        width: 100%;
+    }
+
+    #products-list picture {
+        float: left;
+        width: 40%;
+    }
+
+    #products-list img {
+        width: 100%;
+        border: 1px solid #707070;
+    }
+    
+    #product-info {
+        float: right;
+        width: 55%;
+    }
+    
+    #product-info h2 {
+        margin-top: 0;
+    }
+
+    #product-info a {
+        margin-top: 9%;
+        padding: 3%;
+    }
+
 }

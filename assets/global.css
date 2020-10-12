@@ -6,12 +6,24 @@
     margin: 20px;
 }
 
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
 .mt-15 {
     margin-top: 15px;
 }
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.mt-90 {
+    margin-top: 90px;
 }
 
 .mb-auto {
@@ -28,10 +40,6 @@
 
 .full-width {
     width: 100%;
-}
-
-.bold {
-    font-weight: bold;
 }
 
 .regular {
