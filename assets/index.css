@@ -31,6 +31,10 @@ article {
     text-align: left;
 }
 
+form {
+    text-align: left;
+}
+
 label {
     display: inherit;
     font: normal normal normal 12px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -47,7 +51,6 @@ label {
 }
 
 #algorithm form {
-    text-align: left;
     width: 40%;
 }
 
@@ -75,6 +78,41 @@ label {
 #products-list img {
     width: 100%;
     border: 1px solid #707070;
+}
+
+#newsletter h5 {
+    margin-top: 35px;
+}
+
+#friend-form {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#friend-fields {
+    display: flex;
+    justify-content: center;
+}
+
+#friend-fields .text-fields{
+    width: 30%;
+    margin-bottom: 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 10%;
+    text-align: left;
+}
+
+#friend-fields input{
+    width: 100%;
+    border: 1px solid #707070;
+}
+
+#friend-email-field {
+    margin-left: 10%;
+}
+
+#friend-send {
+    width: 30%;
 }
 
 .text {
@@ -143,6 +181,11 @@ label {
     #chevron-icon {
         visibility: visible;
     }
+
+    #newsletter h5 {
+        margin-top: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -179,4 +222,24 @@ label {
         padding: 3%;
     }
 
+    #friend-form {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #friend-fields {
+        display: block;
+    }
+
+    #friend-fields .text-fields{
+        width: 100%;
+        margin-bottom: 15px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        height: 10%;
+        text-align: left;
+    }
+
+    #friend-email-field {
+        margin-left: 0;
+    }
 }

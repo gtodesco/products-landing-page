@@ -161,25 +161,30 @@
             
         </section>
 
-        <section id="newsletter">
+        <section id="newsletter" class="mt-140">
 
-            <h3>Compartilhe a novidade</h3>
+            <h3 class="text size-6 grey section-title">Compartilhe a novidade</h3>
 
-            <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+            <h5 class="text regular size-4 grey">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</h5>
 
-            <form>
-                <label for="friend-name">Nome do seu amigo:</label>
-                <input type="text" id="friend-name" name="friend-name">
+            <form id="friend-form">
+                <div id="friend-fields">
+                    <div class="text-fields">
+                        <label for="friend-name">Nome do seu amigo:</label>
+                        <input type="text" id="friend-name" name="friend-name">
+                    </div>
 
-                <label for="friend-email">E-mail:</label>
-                <input type="text" id="friend-email" name="friend-email">
-
-                <input type="submit" value="Enviar agora">
+                    <div id="friend-email-field" class="text-fields">
+                        <label for="friend-email">E-mail dele:</label>
+                        <input type="text" id="friend-email" name="friend-email">
+                    </div>
+                </div>
+                
+                <input id="friend-send" class="button text grey mt-60" type="submit" value="Enviar agora">
             </form>
-
         </section>
         
-        <footer class="p-50 text white size-1">
+        <footer class="mt-90 p-50 text white size-1">
             <p>Testando suas habilidades em HTML, CSS e JS.</p>
             <p>Linx Impulse</p>
             <p>2019</p>

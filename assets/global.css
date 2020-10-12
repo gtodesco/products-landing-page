@@ -22,8 +22,16 @@
     margin-top: 20px;
 }
 
+.mt-60 {
+    margin-top: 60px;
+}
+
 .mt-90 {
     margin-top: 90px;
+}
+
+.mt-140 {
+    margin-top: 140px;
 }
 
 .mb-auto {
