@@ -6,12 +6,28 @@
     margin: 20px;
 }
 
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mb-auto {
     margin-bottom: auto;
 }
 
 .p-50 {
     padding: 50px;
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .bold {
@@ -68,4 +84,20 @@
 .size-8 {
     font-size: 40px;
     line-height: 49px;
+}
+
+.flex {
+    display: flex;
+}
+
+.inherit {
+    display: inherit;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.vertical-text-bottom {
+    vertical-align: text-bottom;
 }

@@ -27,8 +27,40 @@ section {
     margin: auto;
 }
 
+label {
+    display: inherit;
+    font: normal normal normal 12px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #888888; 
+    margin-bottom: 5px;
+}
+
 #header {
     padding-top: 69px;
+}
+
+#algorithm {
+    text-align: left;
+}
+
+#algorithm article {
+    width: 60%;
+}
+
+#algorithm form {
+    width: 40%;
+}
+
+#algorithm form .text-input {
+    display: inherit;
+    margin-bottom: 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    height: 10%;
+}
+
+#chevron-icon {
+    visibility: hidden;
+    float: right;
 }
 
 #products-list {
@@ -52,3 +84,26 @@ section {
     padding: 10px 10px;
 }
 
+@media only screen and (max-width: 900px) {
+
+    section {
+        width: 80%;
+    }
+
+    #algorithm {
+        display: block;
+    }
+
+    #algorithm article {
+        width: 100%;
+    }
+
+    #algorithm form {
+        padding: 0;
+        width: 100%;
+    }
+
+    #chevron-icon {
+        visibility: visible;
+    }
+}
