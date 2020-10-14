@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "http-server . -o /view -a 0.0.0.0 -p 8081 -c-1 --cors='*'"
+    "serve": "http-server . -o -a 0.0.0.0 -p 8081 -c-1 --cors='*'"
   },
   "repository": {
     "type": "git",
