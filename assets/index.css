@@ -8,8 +8,8 @@ body {
     text-align: center;
 }
 
-header, footer, nav {
-    background: #707070;
+header, nav {
+    background: transparent;
 }
 
 header {
@@ -20,8 +20,6 @@ nav {
     display: flex;
     justify-content: center;
     padding: 3em;
-    padding-bottom: 5em;
-    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 50%);
 }
 
 nav a {
@@ -53,7 +51,21 @@ label {
 footer {
     padding-top: 10%;
     padding-bottom: 5%;
+    background: #707070;
     clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
+}
+
+#background-effect {
+    height: 27em;
+    background: #707070;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+    position: relative;
+}
+
+#header-nav {
+    margin-top: -27em;
+    position: relative;
+    margin-bottom: 5em;
 }
 
 #algorithm article {
@@ -71,7 +83,7 @@ footer {
     margin-bottom: 15px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    height: 10%;
+    height: 2em;
     width: 100%;
 }
 
@@ -111,13 +123,13 @@ footer {
     width: 30%;
     margin-bottom: 15px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    height: 10%;
     text-align: left;
 }
 
 #friend-fields input{
     width: 100%;
     border: 1px solid #707070;
+    height: 2em;
 }
 
 #friend-email-field {
@@ -125,7 +137,8 @@ footer {
 }
 
 #friend-send {
-    width: 30%;
+    width: 22em;
+    margin-top: 2em;
 }
 
 .text {
@@ -174,8 +187,27 @@ footer {
         padding-left: 20px;
     }
 
+    nav {
+        display: grid;
+        justify-content: center;
+        padding: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    }
+
+    nav a {
+        box-shadow: 0px 1px 6px #00000029;
+        width: 9em;
+        margin: 5%;
+    }
+
     section {
         width: 90%;
+    }
+
+    footer {
+        padding-top: 20%;
+        padding-bottom: 5%;
+        clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
     }
 
     #algorithm {
@@ -184,6 +216,11 @@ footer {
 
     #algorithm article {
         width: 100%;
+    }
+    
+    #algorithm article h3{
+        font-size: 1em;
+        line-height: 24px;
     }
 
     #algorithm form {
