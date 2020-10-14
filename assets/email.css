@@ -1,0 +1,56 @@
+footer {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    background: #707070;
+    clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
+}
+
+#email {
+    width: 36em;
+    margin: 0 auto;
+}
+
+#background-effect {
+    height: 14em;
+    background: #707070;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    position: relative;
+}
+
+#header {
+    width: 23em;
+    position: relative;
+    margin-top: -16em;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#general {
+    margin: 1em;
+}
+
+#general article {
+    text-align: left;
+}
+
+#products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+    grid-gap: 39px 41px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#products-list img {
+    width: 100%;
+    border: 1px solid #707070;
+}
+
+#more-products {
+    padding-left: 10%;
+    padding-right: 10%;
+}
