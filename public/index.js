@@ -23,9 +23,9 @@ async function getProducts(url) {
                             <div id="product-info" class="text grey">
                                 <h2 id="prod-name" class="m-auto mt-15 regular size-4">${product.name}</h2>
                                 <h5 id="prod-description" class="m-auto mt-10 regular size-2">${product.description}</h5>
-                                <h5 id="prod-old-price" class="m-auto mt-10 regular size-2">De: R$${product.oldPrice}</h5>
-                                <h3 id="prod-price" class="m-auto mt-5 size-5">Por: R$${product.price}</h3>
-                                <h5 id="prod-conditions" class="m-auto mt-5 regular size-2">ou ${product.installments.count}x de R$${product.installments.value}</h5>
+                                <h5 id="prod-old-price" class="m-auto mt-10 regular size-2">De: ${product.oldPrice.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h5>
+                                <h3 id="prod-price" class="m-auto mt-5 size-5">Por: ${product.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h3>
+                                <h5 id="prod-conditions" class="m-auto mt-5 regular size-2">ou ${product.installments.count}x de ${product.installments.value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h5>
                                 
                                 <a class="inherit button mt-15">Comprar</a>
                             </div>
