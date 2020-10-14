@@ -1,5 +1,11 @@
 window.onload = getProducts('frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1');
 
+/**
+ * Função responsável por requisitar os produtos para a API com base em uma url de paginação
+ * e adicionar os cards de produtos na tela
+ *  
+ * @param {String} url 
+ */
 async function getProducts(url) {
     
     const response = await axios.get(`https://${url}`);
@@ -38,6 +44,12 @@ async function getProducts(url) {
 
 }
 
+/**
+ * Função que irá substituir o botão de mais produtos por uma mensagem de carregando
+ * enquanto a requisição para a API estiver sendo feita
+ * 
+ * @param {String} url 
+ */
 async function getMoreProducts(url) {
 
     let buttonMoreProducts = document.querySelector('#more-products');
