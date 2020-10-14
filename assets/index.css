@@ -12,10 +12,15 @@ header, footer, nav {
     background: #707070;
 }
 
+header {
+    padding-top: 69px;
+}
+
 nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 215px));
     justify-content: center;
+    background: linear-gradient(to top right, #FFFFFF 50%, #707070 50%);
 }
 
 nav a {
@@ -42,8 +47,10 @@ label {
     margin-bottom: 5px;
 }
 
-#header {
-    padding-top: 69px;
+footer {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
 }
 
 #algorithm article {
@@ -69,7 +76,7 @@ label {
 
 #products-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
     grid-gap: 39px 41px;
     margin-top: 50px;
     margin-bottom: 52px;
