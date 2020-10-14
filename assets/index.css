@@ -105,6 +105,10 @@ footer {
     border: 1px solid #707070;
 }
 
+#load-products {
+    display: none;
+}
+
 #newsletter h5 {
     margin-top: 35px;
 }

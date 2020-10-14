@@ -1,14 +1,14 @@
-window.onload = getProducts('https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1');
+window.onload = getProducts('frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1');
 
 async function getProducts(url) {
     
-    const response = await axios.get(url);
+    const response = await axios.get(`https://${url}`);
     const products = response.data.products;
     const nextPage = response.data.nextPage;
 
     let button = document.querySelector('#more-products');
 
-    button.setAttribute('onclick', `getProducts('https://${nextPage}')`);
+    button.setAttribute('onclick', `getMoreProducts('${nextPage}')`);
 
     const list = document.querySelector('#products-list');
     
@@ -35,4 +35,19 @@ async function getProducts(url) {
     })
 
     list.innerHTML = html;
+
+}
+
+async function getMoreProducts(url) {
+
+    let buttonMoreProducts = document.querySelector('#more-products');
+    let messageLoadProducts = document.querySelector('#load-products');
+
+    buttonMoreProducts.style.display = "none";
+    messageLoadProducts.style.display = "initial";
+
+    await getProducts(url);
+
+    buttonMoreProducts.style.display = "initial";
+    messageLoadProducts.style.display = "none";
 }
