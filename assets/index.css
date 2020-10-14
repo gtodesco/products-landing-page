@@ -210,6 +210,26 @@ footer {
         clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
     }
 
+    #header-nav {
+        margin-top: -27em;
+        position: relative;
+        margin-bottom: 10em;
+    }
+
+    #newsletter h5 {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    #header-nav {
+        margin-top: -27em;
+        position: relative;
+        margin-bottom: 5em;
+    }
+
     #algorithm {
         display: block;
     }
@@ -231,14 +251,6 @@ footer {
     #chevron-icon {
         visibility: visible;
     }
-
-    #newsletter h5 {
-        margin-top: 20px;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
 
     #prod-description {
         display: none;
