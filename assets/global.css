@@ -1,3 +1,5 @@
+/* Estilos gerais */
+
 .m-auto {
     margin: auto;
 }
@@ -116,4 +118,36 @@
 
 .vertical-text-bottom {
     vertical-align: text-bottom;
+}
+
+/* Estilos comuns entre as páginas */
+
+body {
+    background: #FFFFFF;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    background: transparent;
+    padding-top: 4em;
+}
+
+.text {
+    font-style: normal;
+    font-variant: normal;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.button:hover {
+    cursor: pointer;
 }

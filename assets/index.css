@@ -2,24 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background: #FFFFFF;
-    margin: auto;
-    text-align: center;
-}
-
-header, nav {
-    background: transparent;
-}
-
-header {
-    padding-top: 4em;
-}
-
 nav {
     display: flex;
     justify-content: center;
     padding: 3em;
+    background: transparent;
 }
 
 nav a {
@@ -143,25 +130,6 @@ footer {
 #friend-send {
     width: 22em;
     margin-top: 2em;
-}
-
-.text {
-    font-style: normal;
-    font-variant: normal;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.button {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    border-radius: 4px;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 10px;
-}
-
-.button:hover {
-    cursor: pointer;
 }
 
 .section-title {
