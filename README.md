@@ -23,7 +23,7 @@ Installation
 
 #### 1) Clone & Install Dependencies
 
-- 1.1) `https://github.com/gtodesco/products-landing-page.git`.
+- 1.1) Clone `https://github.com/gtodesco/products-landing-page.git`.
 - 1.2) `cd products-landing-page` - cd into your newly created project directory.
 - 1.3) Install NPM packages with `npm install`.
 
