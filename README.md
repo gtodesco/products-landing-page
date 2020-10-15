@@ -52,8 +52,8 @@ Technology
 - Javascript
 - Node
 
-The use of the <h(x)> tags is an example of the application of semantics in HTML, highlighting more important texts.
-In addition, I structured the code with the tags <header>, <nav>, <section>, <article>, <picture>, <footer>.
+The use of the <h*> tags is an example of the application of semantics in HTML, highlighting more important texts.
+In addition, I structured the code with other semantic tags.
 
 The styles, with media queries were separated by page and they also have a global style.
 
