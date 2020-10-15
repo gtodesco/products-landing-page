@@ -4,7 +4,7 @@
 Sections
 =================
    * [Demo](#demo)
-   * [Instalation](#instalation)
+   * [Installation](#installation)
    * [Usage](#usage)
    * [Technology](#technology)
    * [Author](#author)
